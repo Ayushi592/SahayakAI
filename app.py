@@ -13,7 +13,7 @@ st.set_page_config(page_title="SahayakAI – Govt Scheme Recommender", layout="w
 df = pd.read_csv("schemes.csv")
 
 # Configure Gemini API key
-genai.configure(api_key="AIzaSyA4SUhQEM5djXJvekn_6cpe-bZX8wNQ67M")  # 🔑 Replace with your valid key
+genai.configure(api_key="YOUR API KEY")  # 🔑 Replace with your valid key
 
 # Initialize model
 model = genai.GenerativeModel("gemini-2.5-pro")
@@ -115,3 +115,4 @@ if submit:
 
     if not found_any:
         st.info("No official scheme links found in this response.")
+
