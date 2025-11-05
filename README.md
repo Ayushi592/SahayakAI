@@ -156,5 +156,8 @@ Social welfare eligibility assistance
 
 ## 👨‍💻 Developer
 Ayushi Nagpure
-B.Tech — Computer Science (Final Year)
+B.Tech Computer Science (Final Year)
+
+## License
+This Pr0ject is under MIT License.
 
