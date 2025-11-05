@@ -106,7 +106,6 @@ I'm a 20-year-old female from Maharashtra. Family income 1.5 LPA. Are there scho
 📎 can share links, required docs & application steps.
 📊 Sample Govt Scheme Dataset (schemes.json)
 ```json
-Copy code
 [
   {
     "name": "PM Kisan Samman Nidhi",
