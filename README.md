@@ -63,51 +63,56 @@ Copy code
 ```bash
 git clone <your-repo-link>
 cd sahayakai
-✅ 2. Create Virtual Environment
-bash
+ ```
+
+## ✅ 2. Create Virtual Environment
+```bash
 Copy code
 python -m venv venv
 Activate it:
-
 Windows
+```
 
-bash
+```bash
 Copy code
 venv\Scripts\activate
 Mac/Linux
+```
 
-bash
+```bash
 Copy code
 source venv/bin/activate
-✅ 3. Install Requirements
-bash
+```
+
+## ✅ 3. Install Requirements
+```bash
 Copy code
 pip install -r requirements.txt
-✅ 4. Add Gemini API Key
+```
+
+## ✅ 4. Add Gemini API Key
 Create a .env file:
 GEMINI_API_KEY=your_api_key_here
 
-▶️ Run the Application
-bash
+ ## ▶️ Run the Application
+```bash
 Copy code
 streamlit run app.py
 Open browser → http://localhost:8501
-
+```
 ##  Example Query
 I'm a 20-year-old female from Maharashtra. Family income 1.5 LPA. Are there scholarships or women-centric welfare schemes available?
 
-✅ Output:
-swift
-Copy code
-✅ Eligible Schemes:
+## ✅ Output:
+## ✅ Eligible Schemes:
 • NSP National Scholarship
 • Maharashtra Post-Matric Scholarship
 • Sukanya Samriddhi Yojana
 • Women Skill Development Grants
 
-📎 I can share links, required docs & application steps.
+📎 can share links, required docs & application steps.
 📊 Sample Govt Scheme Dataset (schemes.json)
-json
+```json
 Copy code
 [
   {
@@ -125,7 +130,8 @@ Copy code
     "state": "All India"
   }
 ]
-🧠 How It Works
+```
+##  How It Works
 Step	AI Behavior
 Collect details	Age, state, income, occupation
 Analyze	Compare w/ eligibility rules
@@ -133,7 +139,7 @@ Ask questions	e.g., “Are you a student/farmer?”
 Recommend	Best schemes + eligibility status
 Assist	Provide links, docs list & guidance
 
-#3 Use Cases
+## 3 Use Cases
 Students searching scholarships
 
 Farmers seeking subsidies/support
@@ -144,8 +150,7 @@ Housing, gas, pension, health cards
 
 Social welfare eligibility assistance
 
-🌟 Future Enhancements
-🔗 Direct govt portal links
+##  Future Enhancement
 
 🗂️ Document upload + OCR assistance
 
@@ -157,7 +162,7 @@ Social welfare eligibility assistance
 
 🧾 PDF output: recommended schemes report
 
-👨‍💻 Developer
+## 👨‍💻 Developer
 Ayushi Nagpure
 B.Tech — Computer Science (Final Year)
-Gen-AI Project | Civic Tech
+
