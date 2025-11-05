@@ -40,21 +40,19 @@ User → Streamlit UI
 
 
 ##  Project Structure
-
+```bash
 sahayakai/
-│── app.py # Main Streamlit app
-│── .env # API key
-│── requirements.txt # Dependencies
-│── data/
-│ └── schemes.json # Govt schemes dataset
-│── utils/
-│ └── agent_logic.py # AI logic + eligibility functions
-│── README.md
-
-yaml
-Copy code
-
----
+│── app.py                # Main Streamlit app UI
+│── .env                  # Store Gemini API key here
+│── requirements.txt      # Python dependencies
+│── README.md             # Project documentation
+│
+├── data/
+│   └── schemes.json      # Dataset: Government schemes info
+│
+└── utils/
+    └── agent_logic.py    # Eligibility & AI agent logic
+```
 
 ##  Setup & Installation
 
@@ -67,26 +65,22 @@ cd sahayakai
 
 ## ✅ 2. Create Virtual Environment
 ```bash
-Copy code
 python -m venv venv
 Activate it:
 Windows
 ```
 
 ```bash
-Copy code
 venv\Scripts\activate
 Mac/Linux
 ```
 
 ```bash
-Copy code
 source venv/bin/activate
 ```
 
 ## ✅ 3. Install Requirements
 ```bash
-Copy code
 pip install -r requirements.txt
 ```
 
@@ -96,7 +90,6 @@ GEMINI_API_KEY=your_api_key_here
 
  ## ▶️ Run the Application
 ```bash
-Copy code
 streamlit run app.py
 Open browser → http://localhost:8501
 ```
